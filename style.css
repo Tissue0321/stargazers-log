@@ -1,0 +1,95 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1f2328;
+  background: #f6f8fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 3rem 1.25rem;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-size: clamp(2rem, 6vw, 2.75rem);
+}
+
+header p {
+  color: #59636e;
+  font-size: 1.1rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+}
+
+.repository-list {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.repository-card {
+  padding: 1.25rem;
+  border: 1px solid #d1d9e0;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.repository-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+}
+
+.repository-card a {
+  color: #0969da;
+  text-decoration: none;
+}
+
+.repository-card a:hover {
+  text-decoration: underline;
+}
+
+.repository-card p {
+  margin-bottom: 0.9rem;
+  color: #59636e;
+  line-height: 1.5;
+}
+
+.repository-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  color: #59636e;
+  font-size: 0.9rem;
+}
+
+#status:empty {
+  display: none;
+}
+
+#status[data-error="true"] {
+  color: #cf222e;
+}

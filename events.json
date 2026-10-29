@@ -1,0 +1,23 @@
+[
+  {
+    "name": "freeCodeCamp",
+    "description": "Learn to code for free with millions of other people.",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "language": "TypeScript",
+    "starredAt": "2025-03-14"
+  },
+  {
+    "name": "astro",
+    "description": "The web framework for content-driven websites.",
+    "url": "https://github.com/withastro/astro",
+    "language": "TypeScript",
+    "starredAt": "2025-02-20"
+  },
+  {
+    "name": "public-apis",
+    "description": "A collective list of free APIs for use in software and web development.",
+    "url": "https://github.com/public-apis/public-apis",
+    "language": "Python",
+    "starredAt": "2025-01-08"
+  }
+]
